@@ -5,7 +5,7 @@ Created on 14 Aug 2025
 """
 
 import streamlit as st
-from PIL import Image
+# from PIL import Image
 import pandas as pd
 import numpy as np
 import xgboost as xgb
@@ -29,8 +29,8 @@ st.markdown("""
 This app demonstrates XGBoost classification on the famous Iris dataset. 
 Adjust the hyperparameters and see how they affect the model's performance!
 """)
-image = Image.open('irises.jpeg')
-st.image(image, use_container_width=True)
+# image = Image.open('irises.jpeg')
+# st.image(image, use_container_width=True)
 
 # Load data
 @st.cache_data
