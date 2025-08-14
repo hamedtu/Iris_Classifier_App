@@ -5,7 +5,7 @@ Created on 14 Aug 2025
 """
 
 import streamlit as st
-# from PIL import Image
+from PIL import Image
 import pandas as pd
 import numpy as np
 import xgboost as xgb
@@ -25,12 +25,12 @@ st.set_page_config(
 
 # Title and description
 st.title("Iris Classification App")
-st.markdown("""
-This app demonstrates XGBoost classification on the famous Iris dataset. 
-Adjust the hyperparameters and see how they affect the model's performance!
-""")
-# image = Image.open('irises.jpeg')
-# st.image(image, use_container_width=True)
+# st.markdown("""
+# This app demonstrates XGBoost classification on the famous Iris dataset. 
+# Adjust the hyperparameters and see how they affect the model's performance!
+# """)
+image = Image.open('irises.jpeg')
+st.image(image, use_container_width=True)
 
 # Load data
 @st.cache_data
@@ -252,11 +252,4 @@ if 'model' in st.session_state:
     
     st.dataframe(results_df.style.applymap(color_correct, subset=['Correct']), use_container_width=True)
 
-# Footer
-# st.markdown("---")
-# st.markdown("""
-# <div style='text-align: center; color: gray;'>
-#     <p>Built with Streamlit • XGBoost • Scikit-learn • Plotly</p>
-#     <p>Based on the XGBoost tutorial notebook</p>
-# </div>
-# """, unsafe_allow_html=True)
+
