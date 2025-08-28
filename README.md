@@ -48,7 +48,7 @@ This is a machine learning pipeline integrated with an interactive Streamlit-bas
 
 - **Import errors**: Make sure all dependencies are installed with `pip install -r requirements.txt`
 
-## Installation
+## Output
 
 **I have included screenshots to illustrate the expected observations. Please refer to the output layout images.**
 
