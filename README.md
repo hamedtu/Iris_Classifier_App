@@ -1,6 +1,6 @@
 #  XGBoost Iris Classification Streamlit App
 
-This is an interactive Streamlit application employing XGBoost algorithm on IRIS dataset. 
+This is a machine learning pipeline integrated with an interactive Streamlit-based web application. It enables real-time inference through the XGBoost algorithm applied to the IRIS dataset.
 
 ##  Features
 
@@ -48,6 +48,9 @@ This is an interactive Streamlit application employing XGBoost algorithm on IRIS
 
 - **Import errors**: Make sure all dependencies are installed with `pip install -r requirements.txt`
 
+## Installation
+
+**I have included screenshots to illustrate the expected observations. Please refer to the output layout images.**
 
 
 
