@@ -2,6 +2,8 @@
 
 This is a machine learning pipeline integrated with an interactive Streamlit-based web application. It enables real-time inference through the XGBoost algorithm applied to the IRIS dataset.
 
+![Iris Illustration](irises.jpeg)
+
 ##  Features
 
 - **Interactive Hyperparameter Tuning**: Adjust max depth, learning rate, epochs, and test size
